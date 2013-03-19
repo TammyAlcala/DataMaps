@@ -9,13 +9,22 @@ package datamaps;
  * @author Tammy
  */
 
- 
+import java.util.ArrayList;
 
 public class place {
     
     String cidade;
     String UF;
     String pais;
+    place arrayplaces[]; 
+
+    public place[] getArrayplaces() {
+        return arrayplaces;
+    }
+
+    public void setArrayplaces(place[] arrayplaces) {
+        this.arrayplaces = arrayplaces;
+    }
 
     public String getCidade() {
         return cidade;
@@ -40,6 +49,7 @@ public class place {
     public void setPais(String pais) {
         this.pais = pais;
     }
+    
     
  
      

@@ -11,7 +11,9 @@ package datamaps;
 
 import wicket.contrib.gmap.api.GClientGeocoder;
 import java.util.ArrayList;
+import java.net.URL;
 import datamaps.place;
+import org.json.JSONObject;
 
 public class Datamaps {
 
@@ -21,7 +23,10 @@ public class Datamaps {
     public static void main(String[] args) {
         
         /*
-         recebe lista localidade , palavra chave
+        
+        * 
+        * serialização de dados, persistência
+        * recebe lista localidade , palavra chave
          * função encode dados
          * retorna lat/lng
          * constrói query
@@ -31,7 +36,21 @@ public class Datamaps {
          
          */
         
+        
+        
+        
         // TODO code application logic here
     }
-}
+    
+//    public decode(String cidade, String estado, String UF){
+    
+        
+    }
+  
+
+
+  //  public get_dados(){
+    //obtem do arquivo JSON cidades
+    //}
+//}
 
