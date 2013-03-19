@@ -42,15 +42,18 @@ public class Datamaps {
         // TODO code application logic here
     }
     
-//    public decode(String cidade, String estado, String UF){
+    public decode(String cidade, String estado, String UF){
     
         
     }
   
+ public  montapedido(){
+ java.net.URL queryform = new java.net.URL("http://maps.googleapis.com/maps/api/geocode/json?address=1600+Amphitheatre+Parkway,+Mountain+View,+CA&sensor=true_or_false");
+  }
 
 
   //  public get_dados(){
     //obtem do arquivo JSON cidades
     //}
-//}
+*/
 
